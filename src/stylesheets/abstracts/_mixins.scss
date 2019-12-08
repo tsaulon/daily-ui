@@ -32,3 +32,10 @@
   }
 }
 
+
+/// VIEWPORTS
+@mixin mobile {
+  @media screen and (max-width: $mobile-width) {
+    @content
+  }
+}
