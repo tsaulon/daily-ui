@@ -40,6 +40,11 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "src/stylesheets/main/scss"
+                ]
+              },
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
