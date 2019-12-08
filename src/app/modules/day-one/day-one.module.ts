@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { DayOneRoutingModule } from './day-one-routing.module';
 import { DayOneComponent } from './day-one.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { DayOneComponent } from './day-one.component';
   ],
   imports: [
     CommonModule,
-    DayOneRoutingModule
+    DayOneRoutingModule,
+    ReactiveFormsModule,
   ],
   exports: [
     DayOneComponent,
