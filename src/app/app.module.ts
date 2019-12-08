@@ -4,15 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MODULES } from './modules';
-import { DayOneComponent } from './modules/day-one/day-one.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DayOneComponent,
   ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule,
     ...MODULES,
     AppRoutingModule,
   ],

@@ -7,11 +7,16 @@ const routes: Routes = [
     path: '',
     redirectTo: 'one',
     pathMatch: 'full',
-  }
+  },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [
+    RouterModule.forRoot(routes),
+  ],
+  exports: [
+    RouterModule,
+  ],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}
